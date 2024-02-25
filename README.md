@@ -80,3 +80,10 @@ SCREENSHOTS
 ![WhatsApp Image 2024-02-25 at 11 43 57_25b6a98a](https://github.com/Nandanar06/DealDuo/assets/145127417/cc789896-679b-4056-a2d2-041939803c38)
 
 ![WhatsApp Image 2024-02-25 at 11 43 58_9bd3b566](https://github.com/Nandanar06/DealDuo/assets/145127417/4ce063be-70d1-451f-b97b-881956ada64a)
+
+VEDIO
+
+
+
+https://github.com/Nandanar06/DealDuo/assets/145127417/6c52ab0a-d9fd-4664-bb8f-0fd2f1eb2935
+
