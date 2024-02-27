@@ -44,11 +44,11 @@ def scrape_etsy(search_query):
     soup = BeautifulSoup(response.text, "html.parser")
     
     products = []
-    for item in soup.select(".s-item"):
-        name = item.select_one(".s-item__title").text.strip()
-        price = item.select_one(".s-item__price").text.strip()
-        link = item.select_one(".s-item__link")["href"]
-        products.append({"name": name, "price": price, "link": link, "retailer": "eBay"})
+    for item in soup.select(".listing-link.wt-display-inline-block"):
+        name = item.select_one(".wt-text-captian.v2-listing-card__title.wt-text-truncate").text.strip()
+        price = item.select_one(".wt-text-title-01.lc-price").text.strip()
+        link = item["href"]
+        products.append({"name": name, "price": price, "link": link, "retailer": "Etsy"})
     
     return products
 
